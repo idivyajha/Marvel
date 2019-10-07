@@ -1,0 +1,33 @@
+p{
+  text-align:center; 
+  font-size: 30px;
+  font-family: 'Shadows Into Light', cursive;
+}
+
+.carousel {
+  height: 600px !important;
+  background: rgba(0,0,0,0.2)
+}
+.carousel.carousel-item{
+  width: 300px !important;
+}
+.char{
+  background: url('https://i2.wp.com/opakescreenprinting.com/wp-content/uploads/2018/02/animated_star_background_stock_by_firstdarkangel2001-daqohse.gif?fit=1920%2C1080&ssl=1');
+}
+#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #fff;
+  /* change if the mask should have another color then white */
+  z-index: 99;
+  /* makes sure it stays on top */
+}
+
+#status {
+  width: 100%;
+  height: 100%;
+  background-image: url("https://raw.githubusercontent.com/smasoumi/FAB-Loading/master/images/marvel_loader.gif")
+}
